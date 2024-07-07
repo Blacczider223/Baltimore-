@@ -6,6 +6,19 @@
     "configurations": [
         {
             "args": [
+                "fulfillment 
+                "
+            ],
+            "name": "Gulp task",
+            "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "args": [
                 "task"
             ],
             "name": "Gulp task",
@@ -72,9 +85,26 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
+   {
+      customer(id: "gid://shopify/Customer/957611081784") {
+          email
+              firstName
+                  lastName
+                    }
+                    }
+
+   }         "name": "Launch Chrome against localhost",
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}"
         }
     ]
-}
+}HTTP/1.1 200 OK
+{
+  "data": {
+      "customer": {
+            "email": "testcustomer@example.com",
+                  "firstName": "Sally",
+                        "lastName": "Testopherson",
+                            }
+                              }
+                              }
